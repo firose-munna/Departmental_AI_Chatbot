@@ -1,0 +1,101 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you?", "Is there anyone?","Hey","Hola", "Hello", "Good day", "hii"],
+         "responses": ["Hello, thanks for asking", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["You are most welcome."],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": ["hjhjsddhj", "hgdhf", "jkjs", "ppasasdx", " ", "kllqj", "jgwyqa", "sjkjaf"],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "about_university",
+         "patterns": ["Please tell about bubt", "Can you give me more information about BUBT?", "Need Information about bubt"],
+         "responses": ["Bangladesh University of Business and Technology (BUBT) is a powerhouse of academic excellence that champions the freedom of thinking. It has established a formidable reputation since its inception in 2003. The university rises to one of the first ranking private universities because of its sound physical facilities, outstanding teaching and the commitment to the future generation. The exception of BUBT lies in the fact that all the members of the Trustee Board are, educationists, professors and entrepreneurs of education. With the advent of their leadership the university is rapidly climbing to a place that observes a unique position of international standard."],
+         "context": [""]
+        },
+        {"tag": "department",
+         "patterns": ["How many departments running in BUBT?", "How many undergraduates programs does BUBT offer?", "department of bubt"],
+         "responses": ["Undergraduate Programs:\n\nBBA\nB.SC. IN CSIT\nB.SC. IN CSE\nB. SC. IN EEE\nB. SC. IN TE\nB.SC IN ARCHITECHTURE\nBA (HONS.) IN ENGLISH\nB.SC. (HONS.) IN ECONOMICS\nB.SC. (HONS.) IN EDE\nLL.B (HONS.)"],
+         "context": [""]
+        },
+        {"tag": "admission_procedure",
+         "patterns": ["what kind of documents required for admission?", "required documents for admission", "Admission procedure of bubt", "how to admit", "How can I take admission?"],
+         "responses": ["The following documents are needed at the time of admission:\n\n1.Two passport size color photographs (studio lab print with white background for ID card).\n2.Photocopies of certificates and marksheets/transcripts of SSC/HSC or equivalent level. SSC/ equivalent registration card, birth certificate/ national ID card (one copy each).\n3.Original certificates, marksheets/transcripts, registration card and birth certificate /national ID card must be produced for verification by the officer in charge of admission of BUBT."],
+         "context": [""]
+        },
+        {"tag": "requirments",
+         "patterns": ["What requirements are needed to get admitted?", "Requirement for admit", "Admission Requirement?"],
+         "responses": ["For the HSC or equivalent level students:\n1.Science background with Mathematics and Physics at HSC or equivalent level.\n2.GPA at least 2.50 or 2nd Division in SSC and HSC or equivalent examinations; or\n3.GPA at least 2.00 either in SSC or HSC examination, but the total GPA in both the examinations must be at least 6.00; or\n4.Completed at least 5 Subjects in O-Level and 2 Subjects in A-Level. At least B Grade in 4 Subjects and C Grade in 3 Subjects out of 7 Subjects.\n5.In case of sons/daughters of Freedom Fighters a total GPA of at least 5.00 in both SSC and HSC Examinations. But the proof of Father /Mother as Freedom Fighter must be submitted."],
+         "context": [""]
+        },
+        {"tag": "cost",
+         "patterns": ["How much semester fee?", "Semester fee?", "Total cost?", "How much is the total cost for each program in bubt?"],
+         "responses": ["Total cost for each program:\n\nBBA -> 448124 Tk.\nB.SC. IN CSIT -> 293874 Tk.\nB.SC. IN CSE -> 460700 Tk.\nB. SC. IN EEE -> 425100 Tk.\nB. SC. IN TE -> 450900 Tk.\nBA (HONS.) IN ENGLISH -> 316074 Tk.\nB.SC. (HONS.) IN ECONOMICS -> 272624 Tk.\nB.SC. (HONS.) IN EDE -> 284874 Tk.\nLL.B (HONS.) -> 346508 Tk."],
+         "context": [""]
+        },
+        {"tag": "credit",
+         "patterns": ["How much credit bubt offer i each program?", "credit hour in bubt?", "Total credit?", "How much is the total credit for each program in bubt?"],
+         "responses": ["Total credit for each program:\n\nBBA -> 126\nB.SC. IN CSIT -> 146\nB.SC. IN CSE -> 163\nB. SC. IN EEE -> 154.5\nB. SC. IN TE -> 165\nBA (HONS.) IN ENGLISH -> 127\nB.SC. (HONS.) IN ECONOMICS -> 129\nB.SC. (HONS.) IN EDE -> 128\nLL.B (HONS.) -> 144"],
+         "context": [""]
+        },
+        {
+          "tag": "library",
+          "patterns": ["is there any library", "library facility", "library facilities", "do you have library", "does the college have library facility", "college library", "where can i get books", "book facility", "Where is library", "Library", "Tell me about library", "how many libraries"],
+          "responses": ["There is one library on second floor."],
+          "context_set": [""]
+        },
+        {
+          "tag": "canteen",
+          "patterns": ["food facilities", "canteen facilities", "canteen facility", "is there any canteen", "Is there a cafetaria in college", "Does college have canteen", "Where is canteen", "where is cafetaria", "canteen", "Cafetaria"],
+          "responses": ["BUBt has canteen with variety of food available"],
+          "context_set": [""]
+        },
+        {
+          "tag": "sem",
+          "patterns": ["exam dates", "exam schedule", "When is semester exam", "Semester exam timetable", "sem", "semester", "exam", "when is exam", "exam timetable", "exam dates", "when is semester", "Academic Calendar"],
+          "responses": ["Here is the Academic Calendar  https://www.bubt.edu.bd/Home/page_details/Academic_Calender_"],
+          "context_set": [""]
+        },
+        {
+          "tag": "location",
+          "patterns": ["where is the college located", "college is located at", "where is college", "where is college located", "address of college", "how to reach college", "college location", "college address", "wheres the college", "how can I reach college", "whats is the college address", "what is the address of college", "address", "location"],
+          "responses": ["Rupnagar, Mirpur-2, Dhaka-1216, Bangladesh "],
+          "context_set": [""]
+        },
+        {
+          "tag": "name",
+          "patterns": ["name", "your name", "do you have a name", "what are you called", "what is your name", "what should I call you", "whats your name?", "what are you", "who are you", "who is this", "what am i chatting to", "who am i taking to", "what are you"],
+          "responses": ["You can call me BUBTbot.", "I'm BUBTbot"],
+          "context_set": [""]
+        },
+        {
+          "tag": "task",
+          "patterns": ["what can you do", "what are the thing you can do", "things you can do", "what can u do for me", "how u can help me", "why i should use you"],
+          "responses": ["I can answer to low-intermediate questions regarding BUBT", "You can ask me questions regarding BUBT, and i will try to answer them"],
+          "context_set": [""]
+        },
+        {
+          "tag": "number",
+          "patterns": ["more info", "contact info", "how to contact college", "college telephone number", "college number", "What is your contact no", "Contact number?", "how to call you", "College phone no?", "how can i contact you", "Can i get your phone number", "how can i call you", "phone number", "phone no", "call"],
+          "responses": ["Phone: 4803-6351, 4803-6352, 4803-6353\nAdmission Hotline Number: 01810033733\nCell: 01967169189, 01845734337, 01680050630\nEmail: info@bubt.edu.bd"],
+          "context_set": [""]
+        },
+        {
+          "tag": "made",
+          "patterns": [ "what is the name of your developers", "what is the name of your creators", "what is the name of the developers", "what is the name of the creators", "who created you", "your developers", "your creators", "who are your developers", "developers", "you are made by", "you are made by whom", "who created you", "who create you", "creators", "who made you", "who designed you" ],
+          "responses": ["Arafat, Munna, Sanjana and Rana developed me in Nov 2019, for their AI project", "I was developed by Arafat, Munna, Sanjana and Rana", "Arafat, Munna, Sanjana and Rana developed me in BUBT"],
+          "context": [""]
+        }
+]
+}
